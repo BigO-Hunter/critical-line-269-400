@@ -1,10 +1,16 @@
 # critical-line-269-400 — a Lean proof that H ≥ 269/400 for the critical-line-zeros board
 
-**Status: READY-FOR-ROUTE.** The bigospeedrun `critical-line-zeros` route is not open yet; the
-maintainer is building it themselves (verifier#146: statement from the zeta23 Challenge surface,
-Anthropic's proof rerun first, that row credited to Anthropic). **Nothing here is a submission.**
-When the route opens, this repo's row target gets scoped against the maintainer's first row (the
-tie rule: a rerun at the same value as an existing row starts no run), and only then filed.
+**Status: ARTIFACT — the route opened 2026-11-05 with no external submission path for this
+lemma.** The maintainer built the route as announced in verifier#146: `challenges/critical-line-zeros/`
++ a **closed upstream-rerun profile** at zeta23's native pins (Lean v4.33.0-rc2, upstream_commit
+`16a5ce41` — the same tree this repo builds against), with `bound = "3/2 - cot(1/sqrt 2)/sqrt 2"`
+and `score_relation: attained`. The trusted statement is fixed at H itself, so a Lean Verified row
+can only ever be a rerun of H — a rational bound like 269/400 has no gate to enter, and a same-value
+rerun is listed with the existing row's authors. The first LV row (Anthropic, 0.6725007, rank 3)
+landed 2026-11-05. This repo therefore stands as: (a) the public proof of the rational bridge
+H ≥ 269/400 bridging zeta23's Theorem D to an exact rational — reusable if a rational-valued
+statement is ever wanted; (b) a worked example of the partition-build method (docs/); (c) the
+receipts that accompanied verifier#146. Nothing here is a pending submission.
 
 ## What is proved
 

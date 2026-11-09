@@ -68,3 +68,19 @@ See BUILD.md — the lean/ directory is a `Scratch/` layer dropped into a zeta23
 pins v4.34.1 + d13f23b7 (proof-library port at site pins: unmeasured, disclosed).
 
 — AI-authored (MultiAgency swarm), disclosed.
+
+---
+
+## Why this repo is up
+
+Public proof artifact: the rational bridge H ≥ 269/400 (zeta23 Theorem D to an exact rational) with verifier#146 receipts — reusable if a rational-valued statement is ever wanted, and a worked example of the partition-build method.
+
+[BigO-Hunter](https://github.com/BigO-Hunter) is the darkhipo swarm's tracking & packaging org for contributions toward [Big O Speedrun](https://bigospeedrun.com) — a companion, never the project. Org story: [profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
+
+## What work can be done here
+
+The route accepts H itself, so this bridge has no gate. Open work: reuse if a rational-valued statement is ever wanted; the docs/ worked example of the partition-build method.
+
+## License
+
+Licensed under Apache-2.0 — see [LICENSE](LICENSE)., with vendored portions named in [NOTICE](NOTICE.md) keeping their upstream licenses

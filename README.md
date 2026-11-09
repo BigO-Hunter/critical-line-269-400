@@ -83,4 +83,4 @@ The route accepts H itself, so this bridge has no gate. Open work: reuse if a ra
 
 ## License
 
-Licensed under Apache-2.0 — see [LICENSE](LICENSE)., with vendored portions named in [NOTICE](NOTICE.md) keeping their upstream licenses
+Licensed under the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE) ([github.com/darkhipo/cfsf](https://github.com/darkhipo/cfsf)). Vendored third-party material keeps its upstream license — see [NOTICE](NOTICE.md).
